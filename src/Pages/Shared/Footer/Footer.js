@@ -1,11 +1,14 @@
-import React from 'react';
+import React from "react";
+import "./Footer.css";
 
 const Footer = () => {
-    return (
-        <div>
-            <p> all copy right </p>
-        </div>
-    );
+  return (
+    <div>
+      <span className="footer__copy">
+        &#169; Mehedi-Hasan. All rights reserved
+      </span>
+    </div>
+  );
 };
 
 export default Footer;
